@@ -68,5 +68,3 @@ The IoT-based personal safety system was successfully designed, simulated in Pro
 - The **buzzer** responded correctly to high-pressure values, drawing local attention.
 - All modules (GSM, GPS, sensors) interacted correctly and real-time data was visible through the Serial Monitor.
 - The confirmation mechanism helped reduce false alerts.
-
-> ✅ The project achieved its primary goal of providing a low-cost, reliable, and responsive safety system that works without internet and ensures immediate communication during emergencies.
