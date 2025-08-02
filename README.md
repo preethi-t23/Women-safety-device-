@@ -43,4 +43,30 @@ In case of abnormal readings or a panic button press, it triggers an emergency w
    - If not cancelled, an SMS with GPS location is sent
 3. Buzzer activates to alert nearby people.
 
-## ✅ Tested Seceniors 
+## 🖥️ Circuit Simulation
+
+This is the simulated circuit in **Proteus 8 Professional**. It integrates:
+
+- Arduino UNO
+- SIM900D GSM module
+- Neo-6M GPS module
+- Heartbeat sensor
+- Infrared motion sensor
+- LM35 temperature sensor
+- Buzzer and push buttons
+
+## ✅ Result
+
+The IoT-based personal safety system was successfully designed, simulated in Proteus, and tested using Arduino. The system functioned as intended under various emergency scenarios.
+
+### Observed Outcomes:
+- When the panic button was pressed, the system immediately sent an SMS with GPS coordinates to the predefined mobile number.
+- In case of abnormal sensor readings (e.g., heartbeat, temperature, pressure, motion), the system:
+  - Entered a confirmation state
+  - If unconfirmed, triggered an emergency alert
+  - Activated the buzzer and sent the alert message with location
+- The **buzzer** responded correctly to high-pressure values, drawing local attention.
+- All modules (GSM, GPS, sensors) interacted correctly and real-time data was visible through the Serial Monitor.
+- The confirmation mechanism helped reduce false alerts.
+
+> ✅ The project achieved its primary goal of providing a low-cost, reliable, and responsive safety system that works without internet and ensures immediate communication during emergencies.
