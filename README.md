@@ -17,8 +17,6 @@ In case of abnormal readings or a panic button press, it triggers an emergency w
 - Activates an audible **buzzer**
 - Includes a **confirmation mechanism** to prevent false alerts
 
----
-
 ## 🛠️ Technologies & Tools Used
 
 - **Arduino UNO**
@@ -28,4 +26,21 @@ In case of abnormal readings or a panic button press, it triggers an emergency w
 - **Sensors**: Heartbeat, Temperature, Pressure, IR (Motion)
 - **Arduino IDE**, **TinyGPS++**, **SoftwareSerial**
 
+## 🧠 Features
 
+- Continuous monitoring of vitals and movement
+- Panic button for manual emergency triggering
+- Automatic detection of abnormal sensor data
+- GPS + GSM-based location alert system
+- Buzzer activation for nearby awareness
+- Simple and cost-effective design
+
+## ⚙️ System Workflow
+
+1. Sensors continuously read physical/environmental data
+2. If abnormality is detected or button is pressed:
+   - A confirmation window allows the user to cancel
+   - If not cancelled, an SMS with GPS location is sent
+3. Buzzer activates to alert nearby people.
+
+## ✅ Tested Seceniors 
